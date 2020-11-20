@@ -10,10 +10,10 @@ Since I needed that information :-) ...and with this nifty little script I can s
 I used beautifulsoup4 to scrap the page and retrieve information needed.
 
 ### Prerequisites
-Install following library’s using pip (needed to run script):
-pip install requests
-pip install httplib2
-pip install beautifulsoup4
+Install following library’s using pip (needed to run script)  
+* pip install requests  
+* pip install httplib2  
+* pip install beautifulsoup4  
 
 ### Run the script
 Just run it with following command:
