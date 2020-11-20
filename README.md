@@ -1,6 +1,6 @@
 # ScrapThatPage
 ## What:
-This python script Scraps following URL to get all release in the Semi-Annual Enterprise Channel and what date it was released:
+This python script Scraps following URL to get all release in the Semi-Annual Enterprise Channel and what date it was released:  
 https://docs.microsoft.com/sv-se/officeupdates/update-history-microsoft365-apps-by-date
 
 ## Why:
@@ -16,7 +16,7 @@ Install following library’s using pip (needed to run script)
 * pip install beautifulsoup4  
 
 ### Run the script
-Just run it with following command:
+Just run it with following command:  
 python ScrapThatPage.py
 
 ### Output
