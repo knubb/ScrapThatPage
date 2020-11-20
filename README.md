@@ -1,12 +1,12 @@
 # ScrapThatPage
-## What:
-This python script Scraps following URL to get all release in the Semi-Annual Enterprise Channel and what date it was released:  
+## What
+This python script Scraps following URL to get all releases in the Semi-Annual Enterprise Channel and what date it was released:  
 https://docs.microsoft.com/sv-se/officeupdates/update-history-microsoft365-apps-by-date
 
-## Why:
+## Why
 Since I needed that information :-) ...and with this nifty little script I can set-it-and-forget-it! #loveautomation
 
-## How:
+## How
 I used beautifulsoup4 to scrap the page and retrieve information needed.
 
 ### Prerequisites
