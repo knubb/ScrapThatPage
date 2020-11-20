@@ -1,6 +1,6 @@
 # ScrapThatPage
 ## What
-This python script Scraps following URL to get all releases in the Semi-Annual Enterprise Channel and what date it was released:  
+This python script Scraps a Microsoft webpageL to get all releases in the Semi-Annual Enterprise Channel and what date it was released:  
 https://docs.microsoft.com/sv-se/officeupdates/update-history-microsoft365-apps-by-date
 
 ## Why
