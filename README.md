@@ -4,7 +4,7 @@ This python script Scraps a Microsoft webpageL to get all releases in the Semi-A
 https://docs.microsoft.com/sv-se/officeupdates/update-history-microsoft365-apps-by-date
 
 ## Why
-Since I needed that information :-) ...and with this nifty little script I can set-it-and-forget-it! #loveautomation
+Since I needed that information :wink: ...and with this nifty little script I can set-it-and-forget-it! #loveautomation
 
 ## How
 I used beautifulsoup4 to scrap the page and retrieve information needed.
