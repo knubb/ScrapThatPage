@@ -10,11 +10,12 @@ import warnings
 bLatestOnly = False
 ##############################
 
-# clean output :-)
-warnings.filterwarnings("ignore")
-
+# You can change here also, but then you need to understand your target URL and change the logic / code below to get a nice output
 # URL to SCRAP
 scrapURL    = 'https://docs.microsoft.com/sv-se/officeupdates/update-history-microsoft365-apps-by-date'
+
+# clean output :-)
+warnings.filterwarnings("ignore")
 
 # list to save stuff to
 availableVersions = list()
@@ -31,7 +32,7 @@ tables = soup.find_all('table')
 # get all headers
 strBuff = ''
 
-# read the headers from table 2
+# read the headers from table 2 because that's where the information is located that I need
 if len(tables) == 2:   # check so we find 2 tables, and if yes, check table 2
     for thead in tables[1].find_all('thead'):   # headers are in thead
         for th in thead.find_all('th'):
@@ -46,7 +47,7 @@ arrHeader = strBuff.split(';')
 
 availableVersions.append([arrHeader[0],arrHeader[1],'Version','Build'])   # save the first row, the headers, to the availableVersions list
 
-# data variables used in next for section
+# data variables used in next for-section
 strYear = ''
 strReleaseDate = ''
 strSemiAnnualEntChnnl = ''
