@@ -17,7 +17,9 @@ Install following library’s using pip (needed to run script)
 
 ### Run the script
 Just run it with following command:  
+```
 python ScrapThatPage.py
+```
 
 ### Output
 The output CSV will be saved in the directory where the script is executed.
